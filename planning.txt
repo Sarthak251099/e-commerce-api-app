@@ -1,0 +1,35 @@
+Planning the project development: Give 4 hours daily
+
+to be completed by 10th Aug 2024
+
+to include api to add user
+api to add product 
+create a login system
+have django admin
+classify products using tags
+create superuser
+document using swagger
+
+
+Leetcode journey: 
+
+4 hours daily
+complete 50 easy interview questions
+4 questions per day
+should be completed by 15 august
+
+doucment every day
+
+Day 1:
+
+hours: 
+
+working on creating a new project.
+installing requirements and setting up docker environment
+setting up docker-compose
+creating a git repo
+creating an access token on docker hub and saving it as repo secret on github
+
+Day 2:
+
+

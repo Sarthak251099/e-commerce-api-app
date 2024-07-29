@@ -36,5 +36,8 @@ hours:
 
 creating user model
 adding superuser functionality - docker-compose run --rm app sh -c "python manage.py createsuperuser"
-how to access admin page admin.site.register
+create django admin page work
+adding custom fields to the user admin class
+using django admin to update and view users
+adding auto documentation to our project - very easy just add drf_spectacular in requirements, add it in app and update the app/url to enable. Update the setting to add the dictionsayr
 

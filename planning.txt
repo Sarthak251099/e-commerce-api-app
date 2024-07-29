@@ -20,9 +20,9 @@ should be completed by 15 august
 
 doucment every day
 
-Day 1:
+Day 1: partial success
 
-hours: 
+hours: 5
 
 working on creating a new project.
 installing requirements and setting up docker environment
@@ -32,4 +32,9 @@ creating an access token on docker hub and saving it as repo secret on github
 
 Day 2:
 
+hours:
+
+creating user model
+adding superuser functionality - docker-compose run --rm app sh -c "python manage.py createsuperuser"
+how to access admin page admin.site.register
 

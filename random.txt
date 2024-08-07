@@ -1,0 +1,16 @@
+My current role:
+In my current role, I am responsible for identifying and implementing key process enhancements in the field of Identity and Access Management (IAM). This involves developing innovative software solutions to improve and streamline our systems. My work spans from creating entirely new products to integrating additional functionalities into existing ones, ensuring robust and secure access management. On a daily basis, I utilize a range of backend development skills, including Python, Flask, and Django, to deliver scalable and efficient solutions that meet the evolving needs of our organization.
+
+
+Ideated and developed a platform for end-to-end Access Reviews, significantly enhancing IAM processes and doubling team productivity.
+Developed and maintained RESTful APIs using Django, enabling seamless integration with front-end systems.
+Implemented role-based authentication using OAuth2, robust error handling capabilities, and multiple integrations to ensure minimal human intervention.
+Automated fetching and formatting of entitlement reports, creation of sharepoint subsites and access revocation through ServiceNow integration.
+Utilized Docker to streamline development and practiced Test-Driven Development (TDD) to ensure code quality and reliability.
+Achieved two out-of-turn promotions within just two years at Deloitte, progressing from Technical Analyst to Advisor, a testament to exceptional performance and impact—an achievement rarely seen.
+
+things to ask:
+Is it a good idead to add project title and description. What if it leads to long paragraphs.
+What do they look for in a backend developer CV. Is it missing in my profile.
+How much ATS score matters IRL. Which ATS do they generally use to filter CV.
+Is there a sample CV for backend developer which was impressive.

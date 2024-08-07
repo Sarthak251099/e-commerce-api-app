@@ -30,9 +30,9 @@ setting up docker-compose
 creating a git repo
 creating an access token on docker hub and saving it as repo secret on github
 
-Day 2:
+Day 2: success
 
-hours:
+hours: 8
 
 creating user model
 adding superuser functionality - docker-compose run --rm app sh -c "python manage.py createsuperuser"
@@ -40,4 +40,34 @@ create django admin page work
 adding custom fields to the user admin class
 using django admin to update and view users
 adding auto documentation to our project - very easy just add drf_spectacular in requirements, add it in app and update the app/url to enable. Update the setting to add the dictionsayr
+added api for user creation and authentication 
+create the endpoint send a post request to the endpoint
+create a serializer that handles the post request and has the requrired fields
+user modelserializer
+update the create method in the serializer
+view is going to extend from apicreateapiview
+the url file has to be updated with the user create endpoint
+create a test to get authentication token on validated credentials
+create a new serializer that extends from serializer class
+get the email and password
+user = authenticate(username, email)
+override a validate method
+create a new view that extends from oauthtoken view
+this view is responsible for triggering the validate method and responding back with token
+create a class for authenticated api requests
+to retrieve users, create a me endpoint
+create a view for this(make sure it accepts only get request by extending it from the correct class) and make sure that it required the permission class and authorization classes
+the view will send back the user (user needs to go throught the serializer first)
+user the same serializer used for create
+for update url, use the me url
+add a method to the serializerto be able to update the instance
+
+day 3:
+
+creating product model
+making a test case to create a model in test_model file
+
+2 days wasted due to unforseen circumstances
+
+day 4:
 

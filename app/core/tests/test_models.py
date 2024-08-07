@@ -1,5 +1,11 @@
 from django.test import TestCase
 from django.contrib.auth import get_user_model
+from core import models
+
+
+def create_user(email='user@example.com', password='testpass123'):
+    """Create and return a new user."""
+    return get_user_model().objects.create_user(email, password)
 
 
 class ModelTests(TestCase):
@@ -42,3 +48,17 @@ class ModelTests(TestCase):
         )
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
+
+    def test_create_new_product_successful(self):
+        """Test creating a new product successful."""
+        user = get_user_model().objects.create_user(
+            'test@example.com',
+            'testpass123',
+        )
+        product = models.Product.objects.create(
+            name='Rubiks Cube',
+            link='https://cubelelo.com',
+            description='Brand new from tornado v3 X-Man. Fastest cube ever',
+            user=user,
+        )
+        self.assertEqual(str(product), product.name)
